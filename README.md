@@ -10,6 +10,6 @@ winter_vacation plan
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
 | LSTM           |  97.04%  | 96.89% | - |
-| Bi-LSTM          | - | - | - |
+| Bi-LSTM          | 97.09% | 96.93% | - |
 | Transformer          | - | - | - |
 
