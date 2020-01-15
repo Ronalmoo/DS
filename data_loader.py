@@ -46,7 +46,7 @@ if __name__ == "__main__":
     x, y = next(iter(tr_dl))
     print(x.size())
     print(y.size())
-    print(len(tr_dl.dataset))
+    print(len(tr_dl.dataset)
 
 # tokenizer = MeCab()
 
