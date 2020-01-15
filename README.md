@@ -9,7 +9,7 @@ winter_vacation plan
 |                  | Train ACC | Validation ACC | Test ACC |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
-| LSTM           |  92.3%  | - |  84.42%  |
+| LSTM           |  97.04%  | 96.89% | - |
 | Bi-LSTM          | - | - | - |
 | Transformer          | - | - | - |
 
