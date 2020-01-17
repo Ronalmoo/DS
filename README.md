@@ -7,6 +7,7 @@ winter_vacation plan
 + Hyper-parameter was arbitrarily selected.
 
 + Tokenizer: Okt
+
 |                  | Train ACC | Validation ACC | Test ACC |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
@@ -15,6 +16,7 @@ winter_vacation plan
 | Transformer          | - | - | - |
 
 + Tokenizer: Mecab
+
 |                  | Train ACC | Validation ACC | Test ACC |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
@@ -23,6 +25,7 @@ winter_vacation plan
 | Transformer          | - | - | - |
 
 + Tokenizer: Sentencepiece
+
 |                  | Train ACC | Validation ACC | Test ACC |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
