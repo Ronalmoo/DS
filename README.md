@@ -8,12 +8,14 @@ winter_vacation plan
 
 + Tokenizer: Okt
 
+
 |                  | Train ACC | Validation ACC | Test ACC |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
 | LSTM           |  88.917%  | 84.389% | 84.189% |
 | Bi-LSTM          | 97.09% | 96.93% | - |
 | Transformer          | - | - | - |
+
 
 + Tokenizer: Mecab
 
@@ -23,6 +25,7 @@ winter_vacation plan
 | LSTM           |  89.271%  | 85.330% | 84.256% |
 | Bi-LSTM          | 97.09% | 96.93% | - |
 | Transformer          | - | - | - |
+
 
 + Tokenizer: Sentencepiece
 
