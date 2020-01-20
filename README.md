@@ -48,7 +48,7 @@ optional arguments:
 | Transformer          | - | - | - |
 
 
-+ Tokenizer: Sentencepiece
++ Tokenizer: Sentencepiece(SKT)
 
 |                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
