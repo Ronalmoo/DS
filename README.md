@@ -30,7 +30,7 @@ optional arguments:
 + Tokenizer: Okt
 
 
-|                  | Train ACC | Validation ACC | Test ACC |
+|                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
 | LSTM           |  88.917%  | 84.389% | 84.189% |
@@ -40,19 +40,19 @@ optional arguments:
 
 + Tokenizer: Mecab
 
-|                  | Train ACC | Validation ACC | Test ACC |
+|                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
 | LSTM           |  89.271%  | 85.330% | 84.256% |
-| Bi-LSTM          | 93.405% | 85.216% | - |
+| Bi-LSTM          | 93.405% | 85.216% | 85.137% |
 | Transformer          | - | - | - |
 
 
-+ Tokenizer: Sentencepiece
++ Tokenizer: Sentencepiece(SKT)
 
-|                  | Train ACC | Validation ACC | Test ACC |
+|                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
 | Baseline (Feed Forward)         |  -  |     -     |  -  |
 | LSTM           |  81.951%  | 80.443% | 79.021% |
-| Bi-LSTM          | 80.1% | 79.199% | - |
+| Bi-LSTM          | 80.1% | 79.199% | 78.611 |
 | Transformer          | - | - | - |
