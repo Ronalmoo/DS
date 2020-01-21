@@ -100,6 +100,7 @@ def train(model, optimizer, tr_dl):
         train_acc = train_correct / len(train_loader.dataset)
         # return train_acc, train_loss
         val_acc, val_loss = evaluate(model, val_loader)
+        model.train()
         print("Epoch: {}/{}...".format(i + 1, epochs),
               "Step: {}...".format(counter),
               "Loss: {:.6f}...".format(train_loss),
