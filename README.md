@@ -42,8 +42,8 @@ optional arguments:
 
 |                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
-| Baseline (Feed Forward)         |  -  |     -     |  -  |
-| LSTM           |  89.271%  | 85.330% | 84.256% |
+| CNN (Baseline)         |  -  |     -     |  -  |
+| LSTM           |  90.085%  | 85.330% | 84.256% |
 | Bi-LSTM          | 93.405% | 85.216% | 85.137% |
 | Transformer          | - | - | - |
 
