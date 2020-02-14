@@ -32,7 +32,7 @@ optional arguments:
 
 |                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
-| Baseline (Feed Forward)         |  -  |     -     |  -  |
+| CNN (Baseline)         |  -  |     -     |  -  |
 | LSTM           |  87.649%  | 84.709% | 83.189% |
 | Bi-LSTM          | 90.489 % | 83.119% | 82.385% |
 | Transformer          | - | - | - |
@@ -42,7 +42,7 @@ optional arguments:
 
 |                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
-| CNN (Baseline)         |  -  |     -     |  -  |
+| CNN (Baseline)         | 90.816% | 85.330% | 84.117% |
 | LSTM           |  90.085%  | 85.330% | 84.256% |
 | Bi-LSTM          | 93.405% | 85.216% | 85.137% |
 | Transformer          | - | - | - |
@@ -52,7 +52,7 @@ optional arguments:
 
 |                  | Train ACC(120,000) | Validation ACC(30,000) | Test ACC(50,000) |
 | :--------------- | :-------: | :------------: | :------: |
-| Baseline (Feed Forward)         |  -  |     -     |  -  |
+| CNN (Baseline)         |  -  |     -     |  -  |
 | LSTM           |  86.998%  | 83.443% | 82.021% |
 | Bi-LSTM          | 87.3% | 83.243% | 82.611% |
 | Transformer          | - | - | - |
